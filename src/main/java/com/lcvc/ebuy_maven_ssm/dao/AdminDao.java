@@ -34,10 +34,10 @@ public class AdminDao {
 	}
 	
 	
-	public static void main(String[] args) {
+/*	public static void main(String[] args) {
 		AdminDao adminDao=new AdminDao();
 		System.out.println(adminDao.login("admin", "123"));
 		System.out.println(adminDao.login("user", "123"));
 		System.out.println(adminDao.login("user", "123456"));
-	}
+	}*/
 }
