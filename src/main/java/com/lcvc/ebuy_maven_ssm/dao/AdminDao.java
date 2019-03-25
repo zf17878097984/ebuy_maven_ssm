@@ -21,6 +21,7 @@ public class AdminDao {
 			pstmt=conn.prepareStatement(sql);
 			pstmt.setString(1, username);
 			pstmt.setString(2, password);
+
 			rs=pstmt.executeQuery();
 			if(rs.next()){//如果能够从数据库找到记录
 				judge=true;
